@@ -22,42 +22,72 @@ RVCK 项目目前已经与 openEuler Kernel SIG 建立合作，所有经过验�
 
 ![贡献过程](../image/patch-flow.png)
 
-虚线框内为rvck-olk项目的范畴，左边是厂商的代码，右边对接openEuler主线内核仓库。大致贡献过程是：
+虚线框内为 rvck-olk 项目的范畴，左边是厂商的代码，右边对接 openEuler 主线内核仓库。大致贡献过程是：
 
-* 厂商首先整理代码，主要是通过checkpatch.pl测试和剔除商业代码；
-* 新建一个issue;
-* 发起pull requests并关联issue；
-* 补丁通过oervci自动化测试；
-* 人工审核代码是否符合rvck规范并确保代码质量；
-* 最后合并进rvck-olk仓库的OLK-6.6分支；
-* 稳定后我们会release至src发版仓库，该仓库为openEuler OS打包仓库；
-* 我们会安排专业的工程师将合并的的补丁集提交到openEuler主线内核OLK-6.6分支。
+* 厂商首先整理代码，主要是通过 checkpatch.pl 测试和剔除商业代码；
+* 新建一个 issue;
+* 发起 pull requests 并关联 issue；
+* 补丁通过 RAVA 项目自动化测试；
+* 人工审核代码是否符合 rvck 规范并确保代码质量；
+* 最后合并进 rvck-olk 仓库的 OLK-6.6 分支；
+* 稳定后我们会 release 至 src 发版仓库，该仓库为 openEuler OS 打包仓库；
+* openEuler Kernel SIG 成员将及时合并的的补丁集提交到 openEuler 主线内核 OLK-6.6 分支。
   
-  ## 如何开始
+## 如何开始
   
   [贡献手册](https://github.com/RVCK-Project/rvck-olk/wiki)
   
   扫描微信二维码联系中科院软件所 王经纬:
+<!-- 微信二维码部分 -->
+<div align="center" style="margin-bottom: 40px;">
+  <img src="../image/wechat-jingwiw.png" alt="王经纬微信" width="400" height="500" style="max-width: 100%; height: auto;">
+</div>
 
-<table>
-  <tr align="center">
-    <td colspan="2" style="text-align: center;"><img src="image/wechat-jingwiw.png" alt="王经纬微信 "width="400" height="500"></td>
-  </tr>
-</table>
-
+<!-- 合作单位标题 -->
 ## 合作单位
 
-<table>
+<!-- 合作单位列表 -->
+
+
+<!-- 第一层：SpacemiT, Sophgo, Sipeed -->
+<table align="center" style="margin-bottom: 20px;">
   <tr>
-    <td style="text-align: center;"><img src="../image/partner/spacemit.png" alt="Image 1"></td>
-    <td style="text-align: center;"><img src="../image/partner/sophgo.png" alt="Image 2"></td>
-    <td style="text-align: center;"><img src="../image/partner/sipeed.png" alt="Image 3"></td>
-  </tr>
-  <tr align="center">
-    <td colspan="3" style="text-align: center;"><img src="../image/partner/openeuler.png" alt="Image 5" width="300" height="80"></td>
-  </tr>
-  <tr align="center">
-    <td colspan="3" style="text-align: center;"><img src="../image/partner/oerv.png" alt="Image 4" width="300" height="80"></td>
+    <td align="center" style="padding: 0 10px;">
+      <img src="../image/partner/spacemit.png" alt="SpacemiT" style="max-width: 150px; width: 100%; height: auto;">
+    </td>
+    <td align="center" style="padding: 0 10px;">
+      <img src="../image/partner/sophgo.png" alt="Sophgo" style="max-width: 150px; width: 100%; height: auto;">
+    </td>
+    <td align="center" style="padding: 0 10px;">
+      <img src="../image/partner/sipeed.png" alt="Sipeed" style="max-width: 150px; width: 100%; height: auto;">
+    </td>
   </tr>
 </table>
 
+<!-- 第二层：openEuler, OERV -->
+<!-- 第二层：openEuler, OERV -->
+<table align="center" style="margin-bottom: 20px;">
+  <tr>
+    <td align="center" style="padding: 0 10px;">
+      <!-- 固定尺寸容器 -->
+      <div style="width: 150px; height: 150px; display: flex; align-items: center; justify-content: center;">
+        <img src="../image/partner/openeuler.png" alt="openEuler" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+      </div>
+    </td>
+    <td align="center" style="padding: 0 10px;">
+      <!-- 固定尺寸容器 -->
+      <div style="width: 150px; height: 150px; display: flex; align-items: center; justify-content: center;">
+        <img src="../image/partner/oerv.png" alt="OERV" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+      </div>
+    </td>
+  </tr>
+</table>
+
+<!-- 第三层：ISCAS -->
+<table align="center">
+  <tr>
+    <td align="center" style="padding: 0 10px;">
+      <img src="../image/partner/iscas.svg" alt="ISCAS" style="max-width: 150px; width: 100%; height: auto;">
+    </td>
+  </tr>
+</table>
