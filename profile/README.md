@@ -8,7 +8,7 @@ RVCK 内核同源项目（也称 RVCK）是 kernel.org 以及 openEuler 等 linu
 
 由于现有厂商内核版本与 kernel 6.6 较为接近，并且实现统一适配的技术难度较低。RVCK 目前的主要开发基座基于 Kernel6.6 版本，从 ServerPlatform 到内核 6.6 中间存在大量的移植工作，以及相应的测试与优化工作由 RVCK 项目负责。
 
-RVCK 项目目前已经与 openEuler Kernel SIG 建立合作，所有经过验证的开发结果会同步合入 openEuler OLK 项目。
+RVCK 项目目前已经与 openEuler Kernel SIG 建立合作，所有经过验证的开发结果都会同步合入 openEuler OLK 项目。
 
 ### 已经合并的平台
 
@@ -20,7 +20,7 @@ RVCK 项目目前已经与 openEuler Kernel SIG 建立合作，所有经过验�
 
 ## 贡献过程
 
-![贡献过程](image/patch-flow.png)
+![贡献过程](../image/patch-flow.png)
 
 虚线框内为rvck-olk项目的范畴，左边是厂商的代码，右边对接openEuler主线内核仓库。大致贡献过程是：
 
@@ -49,15 +49,15 @@ RVCK 项目目前已经与 openEuler Kernel SIG 建立合作，所有经过验�
 
 <table>
   <tr>
-    <td style="text-align: center;"><img src="image/partner/spacemit.png" alt="Image 1"></td>
-    <td style="text-align: center;"><img src="image/partner/sophgo.png" alt="Image 2"></td>
-    <td style="text-align: center;"><img src="image/partner/sipeed.png" alt="Image 3"></td>
+    <td style="text-align: center;"><img src="../image/partner/spacemit.png" alt="Image 1"></td>
+    <td style="text-align: center;"><img src="../image/partner/sophgo.png" alt="Image 2"></td>
+    <td style="text-align: center;"><img src="../image/partner/sipeed.png" alt="Image 3"></td>
   </tr>
   <tr align="center">
-    <td colspan="3" style="text-align: center;"><img src="image/partner/openeuler.png" alt="Image 5" width="300" height="80"></td>
+    <td colspan="3" style="text-align: center;"><img src="../image/partner/openeuler.png" alt="Image 5" width="300" height="80"></td>
   </tr>
   <tr align="center">
-    <td colspan="3" style="text-align: center;"><img src="image/partner/oerv.png" alt="Image 4" width="300" height="80"></td>
+    <td colspan="3" style="text-align: center;"><img src="../image/partner/oerv.png" alt="Image 4" width="300" height="80"></td>
   </tr>
 </table>
 
